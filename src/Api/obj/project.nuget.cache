@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "dgSpecHash": "oMul06HvD6UPWIIE53E5QrFDkKSfV4T3pNSwAEiDcOzExyfXQryJS44pcLl5LeX+xcGcw1zYgM+FB4YkKmeEKQ==",
+  "success": false,
+  "projectFilePath": "D:\\workspace\\dotnet\\quickstart\\src\\Api\\Api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.8\\microsoft.aspnetcore.authentication.jwtbearer.3.1.8.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "包 Microsoft.AspNetCore.Authentication.JwtBearer 3.1.8 与 net45 (.NETFramework,Version=v4.5) 不兼容。 包 Microsoft.AspNetCore.Authentication.JwtBearer 3.1.8 支持: netcoreapp3.1 (.NETCoreApp,Version=v3.1)",
+      "libraryId": "Microsoft.AspNetCore.Authentication.JwtBearer",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.5"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "包 Microsoft.AspNetCore.Authentication.JwtBearer 3.1.8 与 net45 (.NETFramework,Version=v4.5) / win7-x86 不兼容。 包 Microsoft.AspNetCore.Authentication.JwtBearer 3.1.8 支持: netcoreapp3.1 (.NETCoreApp,Version=v3.1)",
+      "libraryId": "Microsoft.AspNetCore.Authentication.JwtBearer",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.5/win7-x86"
+      ]
+    }
+  ]
+}
